@@ -1,0 +1,12 @@
+[package]
+name = "tauri-plugin-window-state"
+version = "1.0.0"
+authors = [ "AR10" ]
+edition = "2021"
+
+[dependencies]
+tauri = { git = "https://github.com/tauri-apps/tauri/", branch = "next" }
+serde = "1.0"
+serde_json = "1.0"
+bincode = "1.3"
+

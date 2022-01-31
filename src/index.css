@@ -1,0 +1,6 @@
+@tailwind base;
+body {
+    @apply bg-black h-screen overflow-hidden grid justify-items-center;
+}
+@tailwind components;
+@tailwind utilities;
